@@ -1,0 +1,50 @@
+
+.board div{
+    width:100px;
+    height:100px;
+    background-color: rgb(241, 238, 238);
+    margin: 1px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+#resetButton{
+    background-color: rgb(123, 0, 88);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 155px;
+    height:50px;
+    padding: 4px;
+    }
+
+    .board {
+        margin: 20px auto;
+        display: table;
+        width: 415px;
+        height: 360px;
+        padding: 10px;
+        background: #0077EE;
+        border: 1px solid #0044AA;
+        border-radius: 5px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        border-spacing: 5px 5px;
+}
+
+#color {
+    color: white;
+    font-size: 25px;
+}
+#game {
+    display: none;
+    visibility:hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 15vh;
+  }
